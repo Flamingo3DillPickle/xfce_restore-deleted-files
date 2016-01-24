@@ -17,5 +17,8 @@ I'm more than sure that the shell commands can be improved a lot.
 If you want to execute this script using a keyboard shortcut, avoid keys like "CTRL-Z", because xfce would listen this command even if you are using for example a text editor.
 You can use "CTRL-ALT-Z" as a replacement.
 
-#To do:
+# To do:
 Check the current focus before restoring files, allowing to use CTRL-Z like most Desktop Environment do.
+
+# Xfce forum refer:
+https://forum.xfce.org/viewtopic.php?pid=40046
