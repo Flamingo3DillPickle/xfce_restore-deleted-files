@@ -12,3 +12,10 @@ Note the '.trashinfo' string is appended to this file.
 I created a shell script which extract the newest file inside the Trash/files, it then extract the path folder from its trashinfo file, and moves it to its previous destintion.
 
 I'm more than sure that the shell commands can be improved a lot.
+
+# Tips
+If you want to execute this script using a keyboard shortcut, avoid keys like "CTRL-Z", because xfce would listen this command even if you are using for example a text editor.
+You can use "CTRL-ALT-Z" as a replacement.
+
+#To do:
+Check the current focus before restoring files, allowing to use CTRL-Z like most Desktop Environment do.
